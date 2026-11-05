@@ -1,4 +1,4 @@
-Routes
+
 import { Route, Routes } from 'react-router-dom'
 import './App.css'
 import Products from './Pages/Products'
@@ -10,10 +10,14 @@ import Footer from './Components/Footer'
 import Header from './Components/Header'
 
 
+
+
+
 function App() {
   
 
   return (
+   
     <>
     <Header/>
       <Routes>
@@ -24,6 +28,7 @@ function App() {
         <Route path='/*' element={<PageNotFound/>} />
       </Routes>
       <Footer/>
+        
     </>
   )
 }
